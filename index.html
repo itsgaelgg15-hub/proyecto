@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERRAMIENTAS TECNOLOGICAS</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header class="encabezado" id="arriba">
+    <p class="sobrelinea">PROYECTO SEGUNDO PARCIAL</p>
+    <h1>HERRAMIENTAS TECNOLOGICAS</h1>
+    <p class="subtitulo">Hablemos de HTML, CSS y JavaScript</p>
+</header>
+
+<div class="estructura">
+
+    <nav class="menu">
+        <h2>MENÚ PRINCIPAL</h2>
+        <a href="#inicio">INICIO</a>
+        <a href="#html">HTML</a>
+        <a href="#css">CSS</a>
+        <a href="#javascript">JavaScript</a>
+        <a href="#ejemplos">Ejemplos</a>
+        <a href="#personal">Mi página personal</a>
+        <a href="#video">Video</a>
+    </nav>
+
+    <main class="informacion">
+
+    
+        <section class="seccion bienvenida" id="inicio">
+            <span class="etiqueta">BIENVENIDO</span>
+
+            <h2 style="color: #7045A8;">Explora el mundo de la tecnología</h2>
+
+            <p style="font-size: 17px;">
+                Este sitio contiene información sobre herramientas tecnológicas
+                utilizadas para crear páginas web. En el menú lateral puedes
+                seleccionar cada tema para conocer sus características,
+                funciones y ejemplos.
+            </p>
+
+            <img class="hero-img"
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0rLOzlolBUH90_7CxJlrTba1OArBUoUNe65KrM-E7dQ&s=10"
+                 alt="htcyd">
+
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <div class="icono">HTML</div>
+                    <h3>Estructura</h3>
+                    <p>Organiza el contenido de las páginas web.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="icono">CSS</div>
+                    <h3>Diseño</h3>
+                    <p>Define los colores y la apariencia visual.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <div class="icono">JS</div>
+                    <h3>Interactividad</h3>
+                    <p>Permite crear funciones y acciones dinámicas.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="seccion" id="html">
+            <span class="etiqueta">ESTRUCTURA WEB</span>
+
+            <h2> HTML: ESTRUCTURA DE LA PAGINA WEB</h2>
+
+            <p style="text-align: justify;">
+                HTML significa HyperText Markup Language, o lenguaje de marcado
+                de hipertexto. Sirve para organizar el contenido de las páginas
+                web mediante etiquetas.
+            </p>
+
+            <h3 style="color: #7045A8;">Etiquetas HTML comunes</h3>
+
+            <div class="tabla">
+                <div class="fila encabezado-tabla">
+                    <div class="celda">Etiqueta</div>
+                    <div class="celda">Función</div>
+                    <div class="celda">Ejemplo</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">&lt;h1&gt;</div>
+                    <div class="celda">Título principal</div>
+                    <div class="celda">&lt;h1&gt;Hola&lt;/h1&gt;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">&lt;p&gt;</div>
+                    <div class="celda">Crear párrafos</div>
+                    <div class="celda">&lt;p&gt;Texto&lt;/p&gt;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">&lt;a&gt;</div>
+                    <div class="celda">Crear enlaces</div>
+                    <div class="celda">&lt;a href="#"&gt;Visitar&lt;/a&gt;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">&lt;img&gt;</div>
+                    <div class="celda">Insertar imágenes</div>
+                    <div class="celda">&lt;img src="foto.jpg"&gt;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">&lt;ul&gt;</div>
+                    <div class="celda">Crear listas desordenadas</div>
+                    <div class="celda">&lt;ul&gt;...&lt;/ul&gt;</div>
+                </div>
+            </div>
+
+            <h3>Estructura básica de HTML</h3>
+
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;title&gt;Mi sitio web&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola, mundo&lt;/h1&gt;
+    &lt;p&gt;Mi primera página web.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <h3>Imágenes sobre HTML</h3>
+
+            <div class="galeria">
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-a8K2tlTdhLTlfpX2sv5ULzVtyyio5nUdwbXz46T0VbJ-Sp-aOSKg7k&s=10"
+                         alt="Estructura">
+                </a>
+
+
+
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/img"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://assets-blog.hostgator.mx/wp-content/uploads/2022/02/codigo-HTML-confira-o-basico-do-desenvolvimento-web.webp"
+                         alt="Persona escribiendo">
+                </a>
+            </div>
+        </section>
+
+        
+        <section class="seccion" id="css">
+            <span class="etiqueta">DISEÑO DE LA WEB</span>
+
+            <h2>CSS: DISEÑO Y PRESENTEACION</h2>
+
+            <p>
+                CSS significa Cascading Style Sheets, u hojas de estilo en
+                cascada. Se utiliza para cambiar colores, tamaños, espacios
+                y distribución de los elementos de una página web.
+            </p>
+
+            <h3>¿Qué son los selectores CSS?</h3>
+
+            <p>
+                Los selectores permiten elegir los elementos HTML a los que
+                se aplicarán los estilos.
+            </p>
+
+            <div class="tabla">
+                <div class="fila encabezado-tabla">
+                    <div class="celda">Selector</div>
+                    <div class="celda">Función</div>
+                    <div class="celda">Ejemplo</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">p</div>
+                    <div class="celda">Selecciona los párrafos</div>
+                    <div class="celda">p { color: blue; }</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">.clase</div>
+                    <div class="celda">Selecciona una clase</div>
+                    <div class="celda">.caja { padding: 10px; }</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">#id</div>
+                    <div class="celda">Selecciona un identificador</div>
+                    <div class="celda">#inicio { text-align: center; }</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">*</div>
+                    <div class="celda">Selecciona todos los elementos</div>
+                    <div class="celda">* { box-sizing: border-box; }</div>
+                </div>
+            </div>
+
+            <h3>Ejemplos básicos de reglas CSS</h3>
+
+            <pre><code>body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #243247;
+}
+
+h1 {
+    color: #8054C7;
+}
+
+.caja {
+    border: 1px solid #d8e1ee;
+    padding: 20px;
+    border-radius: 12px;
+}</code></pre>
+
+            <h3>Imágenes sobre CSS</h3>
+
+            <div class="galeria">
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=600&q=80"
+                         alt="Código de programación">
+                </a>
+
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGfZDaWlszGJAXTFIka7UdEZazpu1vR6Ld41VOux5klX6124VcquIdMEQ&s=10"
+                         alt="Css">
+                </a>
+            </div>
+
+            <h3>Propiedades CSS</h3>
+
+            <div class="tabla">
+                <div class="fila encabezado-tabla">
+                    <div class="celda">Propiedad</div>
+                    <div class="celda">Uso</div>
+                    <div class="celda">Ejemplo</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">color</div>
+                    <div class="celda">Color del texto</div>
+                    <div class="celda">color: blue;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">background-color</div>
+                    <div class="celda">Color del fondo</div>
+                    <div class="celda">background-color: white;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">font-size</div>
+                    <div class="celda">Tamaño de letra</div>
+                    <div class="celda">font-size: 18px;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">margin</div>
+                    <div class="celda">Espacio exterior</div>
+                    <div class="celda">margin: 10px;</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">padding</div>
+                    <div class="celda">Espacio interior</div>
+                    <div class="celda">padding: 15px;</div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="seccion" id="javascript">
+            <span class="etiqueta">PROGRAMACIÓN</span>
+
+            <h2>JavaScript</h2>
+
+            <p>
+                JavaScript es un lenguaje de programación que permite agregar
+                interactividad a los sitios web. Puede responder a clics,
+                mostrar mensajes, validar formularios y modificar el contenido
+                de una página.
+            </p>
+
+            <h3>Conceptos básicos</h3>
+
+            <div class="tabla">
+                <div class="fila encabezado-tabla">
+                    <div class="celda">Concepto</div>
+                    <div class="celda">Descripción</div>
+                    <div class="celda">Ejemplo</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">Variable</div>
+                    <div class="celda">Guarda un valor</div>
+                    <div class="celda">let nombre = "Ana";</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">Función</div>
+                    <div class="celda">Realiza una tarea</div>
+                    <div class="celda">function saludar() {}</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">Condición</div>
+                    <div class="celda">Evalúa una expresión</div>
+                    <div class="celda">if (edad &gt;= 18) {}</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">Evento</div>
+                    <div class="celda">Responde a una acción</div>
+                    <div class="celda">click</div>
+                </div>
+            </div>
+
+            <h3>Ejemplo de código JavaScript</h3>
+
+            <pre><code>function mostrarMensaje() {
+    alert("¡Hola! Gracias por visitar mi sitio.");
+}</code></pre>
+
+            <p class="nota">
+                Este ejemplo muestra cómo una función puede generar un mensaje
+                cuando se ejecuta. En este proyecto se presenta únicamente
+                como contenido informativo.
+            </p>
+
+            <h3>Imágenes sobre JavaScript</h3>
+
+            <div class="galeria">
+                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwESlAKgT2zCZqcf2YcAbsGHbT4K3qzWi79EdHXZoH0GuxsKuAIbIK84vX&s=10"
+                         alt="Taza de JS">
+                </a>
+
+                <a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="https://www.apinem.com/wp-content/uploads/2024/07/conceptos-clave-javascript-objetos.png"
+                         alt="Ejemplo JS">
+                </a>
+            </div>
+        </section>
+
+        
+        <section class="seccion" id="ejemplos">
+            <span class="etiqueta">ACTIVIDADES</span>
+
+            <h2>Ejemplos desarrollados</h2>
+
+            <p>
+                Estos ejemplos muestran algunas actividades básicas que se
+                pueden realizar al desarrollar páginas web.
+            </p>
+
+            <h3>Lista ordenada de actividades</h3>
+
+            <ol>
+                <li>Crear una página con títulos y párrafos.</li>
+                <li>Insertar imágenes y enlaces.</li>
+                <li>Aplicar estilos mediante CSS.</li>
+                <li>Agregar elementos interactivos.</li>
+            </ol>
+
+            <h3>Lista desordenada de recomendaciones</h3>
+
+            <ul>
+                <li>Utilizar etiquetas HTML correctamente.</li>
+                <li>Separar los estilos en un archivo CSS.</li>
+                <li>Agregar texto alternativo a las imágenes.</li>
+                <li>Probar el sitio en distintos dispositivos.</li>
+            </ul>
+
+            <h3>Resumen de tecnologías</h3>
+
+            <div class="tabla">
+                <div class="fila encabezado-tabla">
+                    <div class="celda">Tecnología</div>
+                    <div class="celda">Tipo</div>
+                    <div class="celda">Uso principal</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">HTML</div>
+                    <div class="celda">Marcado</div>
+                    <div class="celda">Organizar contenido</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">CSS</div>
+                    <div class="celda">Estilos</div>
+                    <div class="celda">Diseñar la apariencia</div>
+                </div>
+
+                <div class="fila">
+                    <div class="celda">JavaScript</div>
+                    <div class="celda">Programación</div>
+                    <div class="celda">Añadir interactividad</div>
+                </div>
+            </div>
+
+            <h3>Ejemplos visuales</h3>
+
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGgdARZEvfEP4PQqyE8cKkfvUM7ZU_qEkqhbh6_z8zaA8cGvZP12sSbHo&s=10"
+                         alt="HTML simple">
+                    <h3>Ejemplo HTML</h3>
+                    <p>Organizar contenido mediante títulos, párrafos y enlaces.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkWRFEBSv3DaJ_hjkqLQ3taUqUd06hGo9SyziFsfAqM9PlIYnABujgHMA&s=10"
+                         alt="CSS simple">
+                    <h3>Ejemplo CSS</h3>
+                    <p>Mejorar el aspecto mediante colores y distribución.</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="https://profile.es/wp-content/media/Ejemplo-practico-de-Typescript-2.png"
+                         alt="JS simple">
+                    <h3>Ejemplo JavaScript</h3>
+                    <p>Programar respuestas a las acciones del usuario.</p>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="seccion" id="personal">
+            <span class="etiqueta">SOBRE MÍ</span>
+
+            <h2>MI PAGINA PERSONAL</h2>
+
+            <p>
+                Aqui presento mi enlace y mi interes a la carrera de Ingenieria En Inteligencia Artificial, mis proyectos
+                los subo de otra manera aparte a un condominio de github que yo mismo voy creando
+            </p>
+
+            <p>
+                Trato de aprender a como construir un sitio web sus caracteristicas, su diseño y su programacion.
+                Mi objetivo es seguir aprendiendo y practicando para desarrollar cosas mas complejas
+            </p>
+
+            <p style="font-weight: bold;">
+                Consulta información adicional sobre el área de IA
+                en el siguiente enlace:
+            </p>
+
+            <a class="enlace-externo"
+               href="https://github.com/itsgaelgg15-hub"
+               target="_blank" rel="noopener noreferrer">
+                MI SITIO WEB GITHUB ↗
+            </a>
+
+            <img class="imagen-personal"
+                 src="https://wallpapercave.com/wp/wp13771271.jpg"
+                 alt="Lewis Hamilton wallpaper">
+        </section>
+
+        
+        <section class="seccion" id="video">
+            <span class="etiqueta">VIDEO DE RESFUERZO</span>
+
+            <h2>Video relacionado con desarrollo web</h2>
+
+            <p>
+                Este video es una introducción al desarrollo de páginas web
+                y permite conocer los fundamentos de HTML.
+            </p>
+
+            <div class="video-contenedor">
+                <iframe
+                    src="https://www.youtube.com/embed/THkrcTb-ag8"
+                    title="Tutorial de HTML para principiantes"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <footer class="pie">
+            <p>Proyecto escolar de Herramientas Tecnológicas</p>
+            <a href="#arriba">Volver al inicio ↑</a>
+        </footer>
+
+    </main>
+</div>
+
+</body>
+</html>
